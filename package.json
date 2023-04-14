@@ -1,0 +1,19 @@
+{
+  "name": "rafael-heard-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "vitest watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^21.1.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}
